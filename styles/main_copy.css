@@ -1,32 +1,32 @@
 
 html{
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
     background-color: rgb(47, 51, 54);
     font-family: "Montserrat";
 }
 body{
     box-shadow: -10px 0 10px #181717, 10px 0 10px #181717;
     height: 100%;
-    background-color: aliceblue;
+    background-color: #ffffff;
     position: relative;
 }
 main{
     margin: 60px;
 }
 .background_container{
-    height: 700px;
+    height: 600px;
     background: url(/recepta-iaia/images/apple-pie.jpg) no-repeat center;
     background-size: cover;
     text-align: center;
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-flow: column;
 }
 .background-text h1{
     font-size: 60px;
-    text-align: center;
-    justify-items: center;
+    align-self: center;
+    margin: 0 auto;
     color: #dde4cc;
 }
 .recipe_holder{
@@ -37,11 +37,13 @@ main{
     border-bottom: 3px solid darkgray;
 }
 .recipe_img{
-    width: auto;
-    position: relative;
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
     background: url(/recepta-iaia/images/recipe-info.png) no-repeat;
     background-size: contain;
     background-position: center;
+
 }
 .cooking_holder{
     width: 100%;
@@ -64,6 +66,7 @@ p{
 }
 ul:before{
     content:attr(aria-label);
+    font-weight: bold;
     font-size:25px;
 }
 ul{
@@ -75,4 +78,19 @@ ul li{
     margin-top: 20px;
     font-size: 25px;
     list-style-type: "-";
+}
+ol:before{
+    content:attr(aria-label);
+    font-weight: bold;
+    font-size:25px;
+}
+ol{
+    margin-top: 35px;
+    margin-bottom:35px;
+}
+ol li{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 25px;
+    list-style-type: decimal;
 }
