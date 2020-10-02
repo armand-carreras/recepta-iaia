@@ -1,18 +1,20 @@
 
 html{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
     background-color: rgb(47, 51, 54);
     font-family: "Montserrat";
 }
 body{
     box-shadow: -10px 0 10px #181717, 10px 0 10px #181717;
     height: 100%;
+    padding-bottom: 30px;
     background-color: #ffffff;
     position: relative;
+    
 }
 main{
-    margin: 60px;
+    margin: 80px;
 }
 header{
     height: 600px;
@@ -37,7 +39,7 @@ header>h1{
     border-bottom: 3px solid darkgray;
 }
 .recipe_img{
-    width: 75%;
+    width: 50%;
     height: 100%;
     margin: 0 auto;
     background: url(/recepta-iaia/images/recipe-info.png) no-repeat;
